@@ -251,6 +251,12 @@ body {
     letter-spacing: -0.02em;
 }
 
+.about-text {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
 .location-text {
     color: var(--text-muted);
     font-size: 1.1rem;
