@@ -309,6 +309,16 @@ body {
     font-size: 0.85rem;
 }
 
+.footer-serviceareas {
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
 /* Responsive design adjustments */
 @media (max-width: 768px) {
     .hero h1 {
