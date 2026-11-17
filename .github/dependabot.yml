@@ -1,0 +1,16 @@
+version: 2
+updates:
+  # Keeps the security-workflows pin in .github/workflows/security.yml current
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: sunday
+      time: "20:00"
+      timezone: America/New_York
+    cooldown:
+      default-days: 7
+    groups:
+      github-actions:
+        patterns:
+          - "*"
